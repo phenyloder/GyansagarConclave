@@ -5,7 +5,7 @@ body {
 	height: 70px;
 	display: flex;
 	background-color: red;
-	/* overflow: hidden; */
+	overflow: hidden;
 	position: fixed;
 	top: 0;
 	width: 100%;
