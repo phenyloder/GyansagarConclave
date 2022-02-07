@@ -1,7 +1,31 @@
 body {
 	font-family: 'Montserrat', sans-serif;
 }
-
+.nav-bar{
+	height: 80px;
+	display: flex;
+	background-color: red;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.content{
+	margin-top: 80px;
+}
+.nav-bar ul{
+	display: flex;
+}
+.nav-bar ul li{
+	flex-direction: column;
+	list-style: none;
+	padding: 20px;
+	cursor: pointer;
+	text-decoration: none;
+}
+.nav-bar ul li a{
+	text-decoration: none;
+}
 .speakers{
 	display: flex;
 	flex-direction: column;
@@ -102,3 +126,4 @@ body {
 .carousel-control-prev,.carousel-control-next{
 	opacity:0;
 }
+
