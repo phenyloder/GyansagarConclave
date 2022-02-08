@@ -127,4 +127,53 @@ body {
 .carousel-control-prev,.carousel-control-next{
 	opacity:0;
 }
+/* images */
 
+/* images */
+.picture{
+	/* margin-left:30%;
+	margin-right: 30%; */
+	text-align: center;
+	margin-top:10%;
+	/* padding-top:2%; */
+	display: flex;
+	justify-content: space-around;
+	margin-right:10%;
+	margin-left: 10%;
+	
+}
+.poster{
+	height:80vh;
+	width:50%;
+	/* border-radius: 5%; */
+}
+.headingmain{
+	font-weight: 700;
+	text-align: center;
+	font-size: 60px;
+	font-family: 'IBM Plex Serif';
+	text-transform: uppercase;
+	background: linear-gradient(90deg, #000, #fff, #000);
+	letter-spacing: 5px;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	background-repeat: no-repeat;
+	background-size: 80%;
+	animation: shine 3s linear infinite;
+	position: relative;
+	
+  }
+  
+  @keyframes shine {
+	0% {
+	  background-position-x: -500%;
+	}
+	100% {
+	  background-position-x: 500%;
+	}
+  }
+  .textandanim{
+	  display: flex;
+	  flex-direction: column;
+  }
