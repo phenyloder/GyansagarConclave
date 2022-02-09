@@ -1,5 +1,6 @@
 body {
 	font-family: 'Montserrat', sans-serif;
+	background-image: radial-gradient(#ff8a00, #e52e71);
 }
 
 
@@ -95,7 +96,7 @@ body {
 	position: absolute;
 	left: 0;
 	right: 0;
-	bottom: -50px;
+	bottom: -40px;
 	text-align: center;
 	width: 100%;
 }
@@ -109,7 +110,7 @@ body {
 	background-color: #262626;
 }
 .team-slider .owl-dot.active {
-	background-color: coral;
+	background-color: rgb(83, 80, 255);
 }
 .carousel-inner > .carousel-item > img {
 	
@@ -248,8 +249,8 @@ body {
 	margin-bottom: 10px;
 	font-family: 'Allura',cursive;
 	text-align: center;
-	font-weight: 2000;
-	font-size: 30px;
+	font-weight: 600;
+	font-size: 45px;
 }
 .description1{
 	margin-bottom: 10px;
