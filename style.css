@@ -20,7 +20,7 @@ body {
 	left: 85%;
 }
 
-@media (max-width:780px) {
+@media (max-width:1200px) {
 	.text{
 		display:none;
 	}
