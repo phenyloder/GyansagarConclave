@@ -111,41 +111,11 @@ body {
 .team-slider .owl-dot.active {
 	background-color: coral;
 }
-
 .carousel-inner > .carousel-item > img {
 	
 	margin-top:17px;
 	width:98%;
 	height:700px;
-}
-
-@media only screen and (width:500px){
-	.carousel-inner > .carousel-item > img {
-    padding-top: 10px;
-	margin-top:7px;
-	width:80%;
-    height:800px;
-	}
-	.header{
-     height:900px;  
-	}
-}
-
-.description{
-	padding-left: 10px;
-	width:45%;
-	font-family: 'Gill Sans', cursive;
-	color: rgb(224, 83, 83);
-	margin-left: 10px;
-}
-.black{
-	color:#000;
-	
-}
-
-.header{
-	width:48%;
-
 }
 .containerHeader{
 	align-content: center;
@@ -155,6 +125,62 @@ body {
 	margin-left: 40px;
 	margin-right:20px;
 }
+.description{
+	padding-left: 10px;
+	width:45%;
+	font-size:10px;
+	font-family: 'Gill Sans', cursive;
+	color: rgb(224, 83, 83);
+	margin-left: 10px;
+	height:70%;
+}
+.header{
+	width:48%;
+}
+
+@media(max-width:800px){
+	.carousel-inner > .carousel-item > img {
+    padding-top: 10px;
+	margin-top:7px;
+	width:100%;
+    height:700px;
+	align-content: center;
+	}
+	.containerHeader{
+		align-content: center;
+		display:block;
+		height: 1400px;
+		margin-left: 40px;
+		margin-right:20px;
+	}
+	.description{
+		padding-left: 10px;
+		margin-top:20px;
+		width:100%;
+		font-size:10px;
+		font-family: 'Gill Sans', cursive;
+		color: rgb(224, 83, 83);
+		margin-left: 10px;
+		height:70%;
+		text-align: left;
+	}
+	.header{
+<<<<<<< HEAD
+		width:100%;
+=======
+     height:900px;  
+>>>>>>> 8fb50dc7e8e8994a06f0774009dde20134df9c7c
+	}
+}
+
+
+.black{
+	color:#000;
+	
+}
+
+
+
 .pointsContent{
 	margin-top: 5px;
 	margin-bottom: 2px;
