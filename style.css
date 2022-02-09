@@ -236,3 +236,83 @@ body {
 .points{
 	color:rgb(243, 82, 82);
 }
+
+.image2 {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 4rem 2rem;
+  }
+  
+  .cont {
+	display: flex;
+	font-family: 'Roboto', sans-serif;
+	align-items: flex-start;
+	justify-content: space-evenly;
+	padding: 3rem 2rem;
+  }
+  
+  .cont1,
+  .cont2,
+  .cont3 {
+	display: flex;
+	color: white;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	width: 17%;
+  }
+  
+  .imgs1 {
+	display: inline-block;
+  }
+  .footer-list{
+	list-style: none;
+  }
+  .footer-list .footer-item{
+	color: white;
+	margin: 1rem 0rem;
+	line-height: 2rem;
+  }
+  
+  .cristiano {
+	font-size: 1.3rem;
+	font-weight: 300;
+	color: skyblue;
+  }
+  
+  
+  .footer-list .footer-item .anchor{
+	text-decoration: none;
+	color: white;
+  }
+  
+  @media (max-width: 580px) {
+	.cont {
+	  flex-direction: column;
+	}
+	.cont1,
+	.cont2,
+	.cont3 {
+	  width: 100%;
+	  flex-direction: row;
+	  align-items: center;
+	  border-bottom: 2px dotted white;
+	}
+  
+	.cristiano::after {
+	  content: ' :';
+	}
+  
+	.footer-list {
+	  margin-left: 3rem;
+	}
+  
+	.image2 {
+	  transform: scale(0.8);
+	}
+  
+	.im {
+	  margin: 2rem;
+	}
+  }
+  
