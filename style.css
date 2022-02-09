@@ -113,12 +113,51 @@ body {
 }
 
 .carousel-inner > .carousel-item > img {
-	width:100%;
-	height:400px;
+	padding-top: 10px;
+	margin-top:7px;
+	width:98%;
+	height:700px;
 }
 
-.container{
+@media only screen and (max-width:300px){
+	.carousel-inner > .carousel-item > img {
+    padding-top: 10px;
+	margin-top:7px;
+	width:98%;
+    height:900px;
+	}
+	.header:{
+     height:900px     
+	}
+}
+
+.description{
+	padding-left: 10px;
+	width:45%;
+	font-family: 'Gill Sans', cursive;
+	color: rgb(224, 83, 83);
+	margin-left: 10px;
+}
+.black{
+	color:#000;
+	
+}
+
+.header{
+	width:48%;
+
+}
+.containerHeader{
 	align-content: center;
+	display: flex;
+	gap:15px;
+	height: 850px;
+	margin-left: 40px;
+	margin-right:20px;
+}
+.pointsContent{
+	margin-top: 5px;
+	margin-bottom: 2px;
 }
 .carousel-control-prev,.carousel-control-next{
 	opacity:0;
@@ -173,3 +212,27 @@ body {
 	  display: flex;
 	  flex-direction: column;
   }
+
+.date{
+	margin-left:20px;
+}
+
+
+.Title{
+	color:rgb(44, 139, 17);
+	margin-bottom: 10px;
+	font-family: 'Allura',cursive;
+	text-align: center;
+	font-weight: 2000;
+	font-size: 30px;
+}
+.description1{
+	margin-bottom: 10px;
+}
+.description2{
+	margin-bottom: 10px;
+}
+
+.points{
+	color:rgb(243, 82, 82);
+}
