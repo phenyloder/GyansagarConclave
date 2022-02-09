@@ -121,7 +121,11 @@ body {
     height:800px;
 	}
 	.header{
+<<<<<<< HEAD
      height:800px;     
+=======
+     height:900px     
+>>>>>>> 3993384ac014a83423c8ade22c6dc737400afa2e
 	}
 }
 
