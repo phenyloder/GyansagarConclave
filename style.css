@@ -106,12 +106,6 @@ body {
 	background-color: coral;
 }
 
-.btn{
-	position: relative;
-	width: 200px;
-	top: 70px;
-}
-
 .carousel-inner > .carousel-item > img {
 	padding-top: 10px;
 	margin-top:7px;
@@ -195,7 +189,7 @@ body {
 	-webkit-text-fill-color: transparent;
 	background-repeat: no-repeat;
 	background-size: 80%;
-	animation: shine 3s linear infinite;
+	animation: shine 6s linear infinite;
 	position: relative;
 	
   }
