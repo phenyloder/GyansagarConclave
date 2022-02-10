@@ -31,101 +31,97 @@ body {
 	margin-top: 70px;
 }
 
-.speakers{
-	position: relative;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+section.sec {
+    padding: 50px 0px;
+    position: relative;
 }
 
-#team {
-	padding: 30px 0;
+@media (max-width:768px) {
+	section.sec {
+		padding: 0px 0px;
+		top: 32rem;
+	}
 }
-.sec-heading h6 {
+.bg-gradient {
+    background: linear-gradient(225.35deg,#246694 0,#062338 100%);
+}
+.title, .title h3 {
 	font-family: 'Allura', cursive;
-	font-size: 65px;
+	font-size: 60px;
+    color: black;
+    font-weight: 700;
+    line-height: 1.2em;
 }
-.single-box {
-	border: 1px solid #ddd;
-	border-radius: 20px;
-	overflow: hidden;
-	background-color: #fff
-}
-.info-area {
-	padding: 0 20px 45px;
-}
-.img-area {
-	overflow: hidden;
-	padding: 15px 0 15px;
-}
-.img-area img {
-	margin: 0 auto;
-	-webkit-transition: all 0.5s ease;
-	transition: all 0.5s ease;
-	max-width: 230px
-}
-.single-box:hover img {
-	-webkit-transform: scale(1.1);
-	transform: scale(1.1);
-}
-.info-area i {
-	display: inline-block;
-    font-size: larger;
-	color: white;
-	margin: 0 4px;
+.sm-title h3 {
+    margin-bottom: 20px;
 }
 
-.info-area h4 {
-	font-weight: 600
-}
-.info-area h5 {
-	color: #3b04db;
-	margin: 10px 0 0;
-	font-weight: 600
-}
-.info-area a {
-	display: inline-block;
-    height: 40px;
+.owl-nav .owl-prev, .owl-nav .owl-next {
+    top: 40%;
+    position: absolute;
+    border-radius: 40px !important;
+    color: #ffffff;
     width: 40px;
-	margin: 25px 0 0;
-    padding-top: 10px;
+    height: 40px;
+    text-align: center;
+}
+.owl-nav .owl-prev {
+    left: -5%;
+}
+.owl-nav .owl-next {
+    right: -5%;
+}
+#staff .owl-nav .owl-prev i, .owl-nav .owl-next i {
+    color: #fff;
+    font-size: 20px;
+    position: relative;
+    left: 0px;
+}
+.box-b {
+    background-color: #f5f6fa;
+    padding: 15px;
+    transition: .2s all ease-in-out;
+    border-radius: 4px;
+    cursor: pointer;
+    border-bottom: solid 2px #2699cf;
+    height: auto;
+    position: relative;
+    box-shadow: 0 5px 10px #9c9c9c;
+}
+.box-b .box-img {
+    margin-bottom: 15px;
+}
+.staff .box-img img {
+    height: 145px;
+    width: 145px;
+    margin: auto;
+    border-radius: 90px;
+}
+.box-b h3 {
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #000000;
+}
+.box-b p {
+    line-height: 1.4;
+    font-size: 18px;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.staff a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
 	background-color: darkorange;
 	color: #fff;
 	border-radius: 50%;
 }
-
-.carousel-box{
+.staff a i{
 	position: relative;
-	left: 10%;
-}
-.team-slider .owl-dots {
-	position: absolute;
-	left: 0;
-	right: 0;
-	bottom: -40px;
-	text-align: center;
-	width: 100%;
-}
-.team-slider button.owl-dot {
-	width: 16px;
-	height: 16px;
-	display: inline-block;
-	margin: 0 6px;
-	text-align: center;
-	border-radius: 50%;
-	background-color: #262626;
-}
-.team-slider .owl-dot.active {
-	background-color: rgb(83, 80, 255);
-}
-
-@media (max-width:786px) {
-	.speakers{
-		top: 30rem;
-	}
-	.team-slider{
-		width: 100%;
-	}
+	top: 10px;
 }
 .carousel-inner .carousel-item img {
 	
@@ -338,12 +334,7 @@ body {
 	 position: relative;
  }
 
- @media (max-width:786px) {
-	 .footer{
-		 top:30rem
-	 }
-	 
- }
+ 
 .image2 {
 	display: flex;
 	justify-content: space-evenly;
@@ -435,6 +426,17 @@ body {
 
 .team h2{
 	text-align: center;
+}
+
+@media (max-width:786px) {
+	.footer{
+		top:30rem
+	}
+	.team{
+	   position: relative;
+	   top: 33rem;
+   }
+	
 }
 
 .profiles{
