@@ -422,6 +422,10 @@ body {
 	  margin: 2rem;
 	}
   }
+
+.team{
+	position: relative;
+}
   
 .heading{
 	font-size: 60px;
@@ -456,8 +460,11 @@ body {
 	transition: 400ms;
 	overflow: hidden;
 }
-.profile h3, h5{
-display: none;
+.user-name{
+	display: none;
+}
+.member_designation{
+	display: none;
 }
 .profile .profile-img{
 	height: 100px;
