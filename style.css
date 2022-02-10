@@ -93,6 +93,11 @@ body {
 	color: #fff;
 	border-radius: 50%;
 }
+
+.carousel-box{
+	position: relative;
+	left: 10%;
+}
 .team-slider .owl-dots {
 	position: absolute;
 	left: 0;
