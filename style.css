@@ -337,6 +337,13 @@ body {
  .footer{
 	 position: relative;
  }
+
+ @media (max-width:786px) {
+	 .footer{
+		 top:30rem
+	 }
+	 
+ }
 .image2 {
 	display: flex;
 	justify-content: space-evenly;
