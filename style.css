@@ -335,7 +335,7 @@ section.sec {
  }
 
  
-.image2 {
+ .image2 {
 	display: flex;
 	justify-content: space-evenly;
 	padding: 4rem 2rem;
@@ -348,7 +348,6 @@ section.sec {
 	justify-content: space-evenly;
 	padding: 3rem 2rem;
   }
-  
   .cont1,
   .cont2,
   .cont3 {
@@ -358,15 +357,15 @@ section.sec {
 	flex-wrap: wrap;
 	align-items: flex-start;
 	width: 17%;
+	text-align: left;
   }
-  
-  .imgs1 {
+  .imgs {
 	display: inline-block;
   }
-  .footer-list{
+  ul {
 	list-style: none;
   }
-  .footer-list .footer-item{
+  ul li {
 	color: white;
 	margin: 1rem 0rem;
 	line-height: 2rem;
@@ -378,8 +377,7 @@ section.sec {
 	color: skyblue;
   }
   
-  
-  .footer-list .footer-item .anchor{
+  ul li a {
 	text-decoration: none;
 	color: white;
   }
@@ -387,22 +385,30 @@ section.sec {
   @media (max-width: 580px) {
 	.cont {
 	  flex-direction: column;
+	  align-items: center;
 	}
 	.cont1,
 	.cont2,
 	.cont3 {
-	  width: 100%;
-	  flex-direction: row;
-	  align-items: center;
+	  width: 60%;
+	  align-content: center;
 	  border-bottom: 2px dotted white;
+	  margin: 1rem 1rem;
 	}
   
-	.cristiano::after {
-	  content: ' :';
+  
+	ul{
+		width: 100%;
 	}
   
-	.footer-list {
-	  margin-left: 3rem;
+   .cristiano{
+	   width: 100%;
+	  text-align: center;
+	}
+  
+	.leo{
+		width: 100%;
+		text-align: center;
 	}
   
 	.image2 {
@@ -468,6 +474,9 @@ section.sec {
 .member_designation{
 	display: none;
 }
+.social{
+	display: none;
+}
 .profile .profile-img{
 	height: 100px;
 	width: 100px;
@@ -486,6 +495,10 @@ section.sec {
 }
 .profile:hover h5{
 	display: block;
+}
+.profile:hover .social{
+	display: block;
+	text-decoration: none;
 }
 .user-name{
 	margin-top: 10px;
