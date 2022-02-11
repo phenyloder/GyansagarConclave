@@ -453,11 +453,13 @@ section.sec {
 
 @media (max-width:786px) {
 	.footer{
-		top:30rem
+		position: relative;
+		top: 40rem;
 	}
 	.team{
+		margin-top: 0;
 	   position: relative;
-	   top: 33rem;
+	   top: 37rem;
    }
 	
 }
