@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fruktur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;500;600&family=Stylish&display=swap');
 
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -728,4 +728,12 @@ section.sec {
 .line{
 	width: 100%;
 	border-top: 1px solid black;
+}
+
+.event-heading, .event-time{
+	font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.event-heading{
+	font-weight: 600;
 }
