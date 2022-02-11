@@ -360,6 +360,7 @@ section.sec {
 
  .brochure{
 	 position: relative;
+	 width: fit-content;
 	 display: flex;
 	 top: 9rem;
 	 left: 15rem;
