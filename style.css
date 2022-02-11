@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fruktur&display=swap');
+
 body {
 	font-family: 'Montserrat', sans-serif;
 	background-image: radial-gradient(#ff8a00, #e52e71);
@@ -479,9 +481,9 @@ section.sec {
 	padding: 10px;
 	background-color: white;
 	border-radius: 5px;
-	width: 150px;
-	height: 150px;
+	width: 175px;
 	height: auto;
+	/* height: auto; */
 	justify-content: center;
 	text-align: center;
 	transition: 400ms;
@@ -497,8 +499,8 @@ section.sec {
 	display: none;
 }
 .profile .profile-img{
-	height: 100px;
-	width: 100px;
+	height: 125px;
+	width: 125px;
 	border-radius: 50%;
 	cursor: pointer;
 	transition: 400ms;
@@ -531,9 +533,21 @@ section.sec {
 	font-weight: 100;
 	letter-spacing: 2px;
 }
+.team h1{
+	font-family: 'Fruktur', cursive;
+	color: blue;
+}
+.team h2{
+	font-family: 'Fruktur', cursive;
+}
 #team_member{
 	margin-top: 100px;
+	top: 0%;
 }
+#team_footer{
+	top: 0;
+}
+
 .button{
 	display: flex;
 	justify-content: center;
