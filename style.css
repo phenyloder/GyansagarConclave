@@ -238,7 +238,8 @@ section.sec {
 }
 .tagline{
 	font-family: 'Dancing Script';
-	font-size: 2em;
+	font-size: 22px;
+	font-weight: 550;
 	color: white;
 }
 .img-div{
