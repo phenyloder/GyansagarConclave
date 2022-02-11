@@ -358,6 +358,30 @@ section.sec {
 	 
  }
 
+ .brochure{
+	 position: relative;
+	 display: flex;
+	 top: 9rem;
+	 left: 15rem;
+ }
+ .brochure a{
+	position: relative;
+	width: 200px;
+	text-align: center;
+	height: 25px;
+	border-radius: 10px;
+	color: #fff;
+	background-color: blue;
+	cursor: pointer;
+ }
+
+ @media (max-width:780px) {
+	 .brochure{
+		top: 6rem;
+		left: 30%;
+	 }
+ }
+
  .footer{
 	 position: relative;
  }
