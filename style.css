@@ -544,18 +544,3 @@ section.sec {
 	  margin: 20px 0;
 	}
 }	 */
-
-.events{
-	position: relative;
-	width: 100%;
-	display: flex;
-	align-items: center;
-}
-.events-heading{
-	font-family: 'Allura', cursive;
-	font-size: 60px;
-	font-weight: 700;
-	position: relative;
-	align-self: center;
-	left: 43%;
-}
