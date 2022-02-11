@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fruktur&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@400;500;600&family=Stylish&display=swap');
 
 body {
 	font-family: 'Montserrat', sans-serif;
@@ -358,6 +358,30 @@ section.sec {
 	 
  }
 
+ .brochure{
+	 position: relative;
+	 display: flex;
+	 top: 9rem;
+	 left: 15rem;
+ }
+ .brochure a{
+	position: relative;
+	width: 200px;
+	text-align: center;
+	height: 25px;
+	border-radius: 10px;
+	color: #fff;
+	background-color: blue;
+	cursor: pointer;
+ }
+
+ @media (max-width:780px) {
+	 .brochure{
+		top: 6rem;
+		left: 30%;
+	 }
+ }
+
  .footer{
 	 position: relative;
  }
@@ -704,4 +728,12 @@ section.sec {
 .line{
 	width: 100%;
 	border-top: 1px solid black;
+}
+
+.event-heading, .event-time{
+	font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+.event-heading{
+	font-weight: 600;
 }
