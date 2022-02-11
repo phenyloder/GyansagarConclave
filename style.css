@@ -233,6 +233,15 @@ section.sec {
 	display: flex;
 	flex-wrap: wrap;
 }
+.poster1{
+	width: 70%;
+}
+.tagline{
+	font-family: 'Tangerine';
+	font-size: 38px;
+	font-weight: 550;
+	color: white;
+}
 .img-div{
 	width: 50%;
 	align-self: flex-end;
@@ -428,6 +437,7 @@ section.sec {
   }
 
 .team{
+	margin-top: 2%;
 	position: relative;
 }
   
@@ -443,11 +453,13 @@ section.sec {
 
 @media (max-width:786px) {
 	.footer{
-		top:30rem
+		position: relative;
+		top: 40rem;
 	}
 	.team{
+		margin-top: 0;
 	   position: relative;
-	   top: 33rem;
+	   top: 37rem;
    }
 	
 }
@@ -586,17 +598,17 @@ section.sec {
 	position: relative;
 	width: 92%;
 	display: flex;
-	margin-bottom: 2%;
+	margin-bottom: 1%;
 	padding: 2%;
-	/* background-color: #fff; */
-	border-radius: 7%;
 }
 
 .event-des{
 	position: relative;
 	width: 50%;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-top: 3%;
 }
 
 .event-poster{
@@ -604,6 +616,7 @@ section.sec {
 	width: 50%;
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
 }
 
 .e2 .event-poster, .e4 .event-poster{
@@ -619,7 +632,6 @@ section.sec {
 
 .poster{
 	position: relative;
-	align-self: flex-end;
 	width: 70%;
 	border-radius: 5%;
 }
@@ -628,6 +640,38 @@ section.sec {
 	position: relative;
 	display: block;
 	height: max-content;
-	left: 2rem;
 	top: 0.5rem;
+}
+
+.event-content{
+	color: #fff;
+}
+
+@media (max-width:780px) {
+	.events{
+		top: 35rem;
+
+	}
+	.e1,.e3,.e5{
+		flex-direction: column-reverse;
+	}
+	.e2,.e4{
+		flex-direction: column;
+	}
+	.event-des{
+		width: 100%;
+	}
+	.event-poster{
+		width: 100%;
+		justify-content: center;
+	}
+	.e2 .event-poster, .e4 .event-poster{
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+.line{
+	width: 100%;
+	border-top: 1px solid black;
 }
