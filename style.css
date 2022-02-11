@@ -380,6 +380,10 @@ section.sec {
   .imgs {
 	display: inline-block;
   }
+  .im{
+	  height: 70px;
+	  width: 70px;
+  }
   ul {
 	list-style: none;
   }
@@ -456,7 +460,7 @@ section.sec {
 @media (max-width:786px) {
 	.footer{
 		position: relative;
-		top: 40rem;
+		top: 38rem;
 	}
 	.team{
 		margin-top: 0;
@@ -483,7 +487,6 @@ section.sec {
 	border-radius: 5px;
 	width: 175px;
 	height: auto;
-	/* height: auto; */
 	justify-content: center;
 	text-align: center;
 	transition: 400ms;
@@ -551,6 +554,9 @@ section.sec {
 .button{
 	display: flex;
 	justify-content: center;
+}
+#team_button{
+	margin-bottom: 15px;
 }
 .button a{
 	text-decoration: none;
