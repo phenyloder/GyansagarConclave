@@ -308,6 +308,16 @@ section.sec {
 	margin-bottom: 10px;
 }
 
+@media (max-width:430px) {
+	.description1 h5,
+	.pointsContent{
+		font-size: 18px;
+	}
+	.ms{
+		display: none;
+	}
+}
+
 .points{
 	color:rgb(243, 82, 82);
 }
