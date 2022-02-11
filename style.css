@@ -233,6 +233,9 @@ section.sec {
 	display: flex;
 	flex-wrap: wrap;
 }
+.poster1{
+	width: 70%;
+}
 .tagline{
 	font-family: 'Dancing Script';
 	font-size: 2em;
