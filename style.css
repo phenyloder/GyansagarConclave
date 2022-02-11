@@ -515,6 +515,17 @@ section.sec {
 #team_member{
 	margin-top: 100px;
 }
+.button{
+	display: flex;
+	justify-content: center;
+}
+.button a{
+	text-decoration: none;
+	color: white;
+	background-color: blue;
+	padding: 5px;
+	border-radius: 10px;
+}
 
 /* @media only screen and (max-width: 1150px) {
 	.profiles {
