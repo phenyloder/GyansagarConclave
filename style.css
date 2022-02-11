@@ -594,17 +594,17 @@ section.sec {
 	position: relative;
 	width: 92%;
 	display: flex;
-	margin-bottom: 2%;
+	margin-bottom: 1%;
 	padding: 2%;
-	/* background-color: #fff; */
-	border-radius: 7%;
 }
 
 .event-des{
 	position: relative;
 	width: 50%;
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	justify-content: flex-start;
+	padding-top: 3%;
 }
 
 .event-poster{
@@ -612,6 +612,7 @@ section.sec {
 	width: 50%;
 	display: flex;
 	justify-content: flex-end;
+	align-items: center;
 }
 
 .e2 .event-poster, .e4 .event-poster{
@@ -627,7 +628,6 @@ section.sec {
 
 .poster{
 	position: relative;
-	align-self: flex-end;
 	width: 70%;
 	border-radius: 5%;
 }
@@ -636,6 +636,38 @@ section.sec {
 	position: relative;
 	display: block;
 	height: max-content;
-	left: 2rem;
 	top: 0.5rem;
+}
+
+.event-content{
+	color: #fff;
+}
+
+@media (max-width:780px) {
+	.events{
+		top: 35rem;
+
+	}
+	.e1,.e3,.e5{
+		flex-direction: column-reverse;
+	}
+	.e2,.e4{
+		flex-direction: column;
+	}
+	.event-des{
+		width: 100%;
+	}
+	.event-poster{
+		width: 100%;
+		justify-content: center;
+	}
+	.e2 .event-poster, .e4 .event-poster{
+		width: 100%;
+		justify-content: center;
+	}
+}
+
+.line{
+	width: 100%;
+	border-top: 1px solid black;
 }
