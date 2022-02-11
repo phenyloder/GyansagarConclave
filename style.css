@@ -502,6 +502,8 @@ section.sec {
 }
 .profile:hover {
 	transform: scale(1.5);
+	overflow: hidden;
+	z-index: 100;
 }
 .profile:hover h3{
 	display: block;
@@ -522,6 +524,20 @@ section.sec {
 	font-size: 15px;
 	font-weight: 100;
 	letter-spacing: 2px;
+}
+#team_member{
+	margin-top: 100px;
+}
+.button{
+	display: flex;
+	justify-content: center;
+}
+.button a{
+	text-decoration: none;
+	color: white;
+	background-color: blue;
+	padding: 5px;
+	border-radius: 10px;
 }
 
 /* @media only screen and (max-width: 1150px) {
